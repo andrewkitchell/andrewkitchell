@@ -1,1 +1,1 @@
-30 WORDS + Stripe
+Personal site for sharing projects & writings

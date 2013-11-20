@@ -15,33 +15,9 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
       templateUrl: 'partials/landing',
       controller: 'LandingCtrl'
     }).
-    when('/about', {
-      templateUrl: 'partials/about',
-      controller: 'AboutCtrl'
-    }).
     when('/blog', {
       templateUrl: 'partials/blog',
       controller: 'BlogCtrl'
-    }).
-    when('/demo', {
-      templateUrl: 'partials/demo',
-      controller: 'DemoCtrl'
-    }).
-    when('/free', {
-      templateUrl: 'partials/free',
-      controller: 'FreeCtrl'
-    }).
-    when('/store', {
-      templateUrl: 'partials/store',
-      controller: 'StoreCtrl'
-    }).
-    when('/store/:guide', {
-      templateUrl: 'partials/guide',
-      controller: 'StoreCtrl'
-    }).
-    when('/cart', {
-      templateUrl: 'partials/shoppingCart',
-      controller: 'StoreCtrl'
     }).
     otherwise({
       redirectTo: '/'
